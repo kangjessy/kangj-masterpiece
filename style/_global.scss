@@ -1,0 +1,40 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background: #f3f4f6;
+  color: #475055;
+}
+
+.mtk-up {
+  margin-top: 100px;
+}
+
+.mtk-bottom {
+  margin-bottom: 100px;
+}
+
+.page-content {
+  margin-top: 100px;
+}
+
+.rounded-lengkung {
+  border-radius: 15px;
+}
+
+.footer {
+  a.footer-link {
+    text-decoration: none;
+    color: #85888a !important;
+    font-size: 14px;
+
+    &:hover {
+      color: #475055 !important;
+    }
+  }
+
+  .copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #85888a;
+  }
+}

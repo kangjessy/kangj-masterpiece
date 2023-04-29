@@ -1,0 +1,96 @@
+.page-home {
+  h5 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #475055;
+
+    @include media-breakpoint-down(md) {
+      font-size: 30px;
+    }
+  }
+
+  p.desk {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #475055;
+  }
+
+  .hero {
+    h5.hero-subtitle {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 36px;
+      color: #475055;
+
+      @include media-breakpoint-down(md) {
+        font-size: 20px;
+      }
+    }
+    h1.hero-title {
+      font-weight: 800;
+      font-size: 100px;
+      line-height: 118px;
+      color: #475055;
+
+      @include media-breakpoint-down(md) {
+        font-size: 80px;
+        margin-top: -20px;
+      }
+    }
+    p.hero-text {
+      font-family: "Ruluko", sans-serif;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 25px;
+      color: #475055;
+
+      @include media-breakpoint-down(md) {
+        font-size: 18px;
+      }
+    }
+
+    .hero-image {
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
+
+      img {
+        @include media-breakpoint-down(sm) {
+        }
+      }
+    }
+  }
+
+  .why-hire-me {
+    .card {
+      background: #f8fafe;
+      border-radius: 20px;
+      transition: 0.5s;
+
+      &:hover {
+        transition: 0.5s;
+        box-shadow: 2px 3px 30px rgba(174, 174, 174, 0.25);
+      }
+
+      .why-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+
+        color: #475055;
+      }
+
+      .why-text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+
+        color: #475055;
+      }
+    }
+  }
+}

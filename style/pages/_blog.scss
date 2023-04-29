@@ -1,0 +1,35 @@
+.blog {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .card {
+    transition: 0.3s;
+
+    .blog-title {
+      font-weight: 600;
+      font-size: 18px;
+      color: #475055;
+    }
+
+    .blog-text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #4a4b4f;
+    }
+
+    .blog-date {
+      font-weight: 400;
+      font-size: 15px;
+      color: #74757b;
+    }
+
+    &:hover {
+      transition: 0.5s;
+      box-shadow: 2px 3px 30px rgba(174, 174, 174, 0.25);
+    }
+  }
+}

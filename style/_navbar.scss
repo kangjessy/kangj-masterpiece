@@ -1,0 +1,27 @@
+.nav-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  .nav-link {
+    color: #475055 !important;
+    font-size: 16px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    &:hover {
+      color: #373b3d !important;
+    }
+  }
+}
+.nav-item.active {
+  color: #475055 !important;
+  font-weight: 500;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear !important;
+  //opacity: 0.3;
+  box-shadow: 0 6px 60px rgba(22, 28, 51, 0.06);
+}

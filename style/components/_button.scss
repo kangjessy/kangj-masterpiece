@@ -1,0 +1,45 @@
+.btn-primary-k {
+  padding: 10px 25px;
+  gap: 10px;
+  background: #475055;
+  box-shadow: 2px 3px 0px #8c9da6;
+  border-radius: 8px;
+  color: #ffffff;
+
+  &:hover {
+    background: #373b3e;
+    box-shadow: -2px -3px 0px #f3f4f6;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+}
+
+.btn-secondary-k {
+  padding: 10px 25px;
+  gap: 10px;
+  background: #f8fafe;
+  box-shadow: 2px 3px 0px #d4d8db;
+  border-radius: 8px;
+  color: #475055;
+
+  &:hover {
+    color: #475055;
+    border: 1px solid #475055;
+    box-shadow: 0px 0px 0px #d4d8db;
+  }
+}
+
+.btn-primary-cta-k {
+  padding: 10px 25px;
+  gap: 10px;
+  background: #475055;
+  border: 1px solid #8c9da6;
+  filter: drop-shadow(2px 3px 0px #8c9da6);
+  border-radius: 8px;
+  color: #ffffff;
+  &:hover {
+    transition: 0.3s;
+    color: #ffffff;
+    filter: drop-shadow(0px 0px 0px #8c9da6);
+  }
+}

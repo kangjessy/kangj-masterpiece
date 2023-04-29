@@ -1,0 +1,28 @@
+.testimoni {
+  background: #475055;
+
+  .testimoni-text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 30px;
+    }
+  }
+
+  .testimoni-user {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .testimoni-color-primary {
+    color: #fff;
+  }
+
+  .testimoni-color-secondary {
+    color: #475055;
+  }
+}
